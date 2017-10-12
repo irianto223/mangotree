@@ -8,7 +8,8 @@
       <p>Age: {{ tree.age }}</p>
       <p>Height: {{ tree.height }}</p>
       <p>Healthy: {{ tree.healthy }}</p>
-      <p>Fruits: {{ tree.fruits }}</p>
+      <!-- <p>Fruits: {{ tree.fruits }}</p> -->
+      <p v-if="tree.fruits">Fruits: {{ tree.fruits.length }}</p>
       <!-- <ul>
         <li v-for="fruit in tree.friuts">{{ fruit }}</li>
       </ul> -->

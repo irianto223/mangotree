@@ -17,6 +17,12 @@ var config = {
   projectId: 'websocket-slide-f13a2',
   storageBucket: 'websocket-slide-f13a2.appspot.com',
   messagingSenderId: '721114250377'
+  // apiKey: 'AIzaSyD384SUrkibh_5ht78CLR_Fttc7k945sO8',
+  // authDomain: 'kanban-irianto.firebaseapp.com',
+  // databaseURL: 'https://kanban-irianto.firebaseio.com',
+  // projectId: 'kanban-irianto',
+  // storageBucket: 'kanban-irianto.appspot.com',
+  // messagingSenderId: '231233131978'
 }
 firebase.initializeApp(config)
 
