@@ -29,7 +29,7 @@ export default {
     simulate (key) {
       axios({
         method: 'get',
-        url: `http://localhost:3000/simulate/${key}`
+        url: `http://35.198.235.47:3002/simulate/${key}`
       })
       .then(response => {
         console.log(response.data)
@@ -39,7 +39,7 @@ export default {
     addtree () {
       axios({
         method: 'get',
-        url: `http://localhost:3000/addtree`
+        url: `http://35.198.235.47:3002/addtree`
       })
       .then(response => {
         console.log(response.data)
